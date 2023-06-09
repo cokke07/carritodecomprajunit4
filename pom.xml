@@ -60,22 +60,6 @@
             </plugin>
 
 
-            <!-- Ciclo de vida de instalación -->
-            <!-- Maven maneja esta fase automáticamente, así que no necesita ser incluida explícitamente -->
-
-            <!-- Ciclo de vida de despliegue -->
-            <!-- Necesitas configurar el plugin maven-deploy-plugin con los detalles de tu repositorio si quieres desplegar el proyecto -->
-            <!--
-            <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-deploy-plugin</artifactId>
-              <version>2.8.2</version>
-              <configuration>
-                <repositoryId>myRepo</repositoryId>
-                <url>http://myrepo.com</url>
-              </configuration>
-            </plugin>
-            -->
         </plugins>
     </build>
 </project>
